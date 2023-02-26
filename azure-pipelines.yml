@@ -6,9 +6,8 @@
 trigger:
 - master
 
-pool:
+pool: MyLaptop
 #  vmImage: ubuntu-latest
-  MyLaptop
 strategy:
   matrix:
     Python27:
